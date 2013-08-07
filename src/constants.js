@@ -138,7 +138,7 @@ highlightsEnglish [3]  = new Array(0.470,1.040,1.31,1.730,1.935,2.655,2.935,3.10
 highlightsEnglish [4]  = new Array(0.225,0.550,0.810,0.930,1.125,1.400,1.655,1.765,2.485,2.710,3.039,3.080,3.390,3.965,4.215,4.720);
 //When her mother isn’t looking, Lucy takes a piece of bread, but as it’s hot, she burns herself.
 highlightsEnglish [5]  = new Array(0.0,0.290,0.480,1.100,1.290,1.550,1.900,0.0,2.250,2.570,0.0,3.580,4.015,4.575,4.785,5.030,5.310,5.390,5.530,6.480,6.700,7.030,7.725,7.790,8.015,8.310,8.370);
-//“ Ow! I’ve burnt my finger! ” When her mother hears her cry she comes quickly to help her.
+// Ow! I’ve burnt my finger!  When her mother hears her cry she comes quickly to help her.
 highlightsEnglish [6]  = new Array(0.255,0.330,0.800,1.260,1.660,1.940,2.090,2.418,2.710,2.900,3.670,3.855,4.545,4.915,5.255,0.0,6.212,6.455,6.732);
 //She puts some ice on her finger and wrapps it in a cloth, to ease the pain.
 highlightsEnglish [7]  = new Array(0.000,0.300,0.575,0.00,1.310,1.600,1.735,0.00,2.420,2.765,2.920,3.000,3.259,3.465,4.250,4.345,4.575,4.805,4.905,5.138,5.220,5.378);
