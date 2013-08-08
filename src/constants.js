@@ -92,14 +92,14 @@ var languageEnglish = new Array(pages);
 languageEnglish [0]  = "";
 languageEnglish [1]  = "";
 languageEnglish [2]  = "Lucy, the little girl, is three years old.";
-languageEnglish [3]  = "After getting up, she goes to the kitchen\nwhere her mother is taking some bread out of the oven.";
-languageEnglish [4]  = "- Does the hot bread smell good?  - says her mother.\n- Yes, - she replies lovingly.";
-languageEnglish [5]  = "When her mother isn’t looking,\nLucy takes a piece of bread, but as it’s hot,\nshe burns herself.";
-languageEnglish [6]  = "- Ow! I’ve burnt my finger!\nWhen her mother hears her cry she comes quickly to help her.";
-languageEnglish [7]  = "She puts some ice on her finger and wraps it in a cloth, to ease the pain.";
-languageEnglish [8]  = "You should never touch things when they are hot. You must wait and be patient.";
-languageEnglish [9]  = "A few minutes later, Lucy’s mother gives her a nice slice of bread and butter.";
-languageEnglish [10]  = "- Now, it’s nice! Mummy - says Lucy happily.";
+languageEnglish [3]  = "After getting up, she goes to the kitchen where her\nmother is taking some bread out of the oven.";
+languageEnglish [4]  = "- Does the hot bread smell good? - says her mother.\n- Yes, - she replies lovingly.";
+languageEnglish [5]  = "When her mother isn’t looking, Lucy takes a piece\nof bread, but as it’s hot,\nshe burns herself.";
+languageEnglish [6]  = "- Ow! I’ve burnt my finger!\nWhen her mother hears her cry\nshe comes quickly to help her.";
+languageEnglish [7]  = "She puts some ice on her finger and wraps\nit in a cloth, to ease the pain.";
+languageEnglish [8]  = "You should never touch things when they are hot.\nYou must wait and be patient.";
+languageEnglish [9]  = "A few minutes later, Lucy’s mother gives her\na nice slice of bread and butter.";
+languageEnglish [10]  = "- Now, it’s nice! Mummy\n - says Lucy happily.";
 
 var soundsEnglish = new Array(pages);
 soundsEnglish  [0]  = soundEnglishPage0;
@@ -131,37 +131,37 @@ var highlightsEnglish=new Array(pages);
 highlightsEnglish [0]  = new Array();
 highlightsEnglish [1]  = new Array();
 //Lucy, the little girl, is three years old.
-highlightsEnglish [2]  = new Array(0.200,0.665,0.790,0.928,1.210 ,1.330,1.505, 1.635,1.955,2.570,2.730,3.105,3.318,4.275,4.495,5.028,5.405);
-//After getting up, she goes to the kitchen where her mother is taking some bread out of the oven.
-highlightsEnglish [3]  = new Array(0.470,1.040,1.31,1.730,1.935,2.655,2.935,3.100,3.595,4.045,4.280,4.420);
-//“ Does the hot bread smell good? ” says her mother.  “ Yes ”, she replies lovingly.
-highlightsEnglish [4]  = new Array(0.225,0.550,0.810,0.930,1.125,1.400,1.655,1.765,2.485,2.710,3.039,3.080,3.390,3.965,4.215,4.720);
-//When her mother isn’t looking, Lucy takes a piece of bread, but as it’s hot, she burns herself.
-highlightsEnglish [5]  = new Array(0.0,0.290,0.480,1.100,1.290,1.550,1.900,0.0,2.250,2.570,0.0,3.580,4.015,4.575,4.785,5.030,5.310,5.390,5.530,6.480,6.700,7.030,7.725,7.790,8.015,8.310,8.370);
-// Ow! I’ve burnt my finger!  When her mother hears her cry she comes quickly to help her.
-highlightsEnglish [6]  = new Array(0.255,0.330,0.800,1.260,1.660,1.940,2.090,2.418,2.710,2.900,3.670,3.855,4.545,4.915,5.255,0.0,6.212,6.455,6.732);
-//She puts some ice on her finger and wrapps it in a cloth, to ease the pain.
-highlightsEnglish [7]  = new Array(0.000,0.300,0.575,0.00,1.310,1.600,1.735,0.00,2.420,2.765,2.920,3.000,3.259,3.465,4.250,4.345,4.575,4.805,4.905,5.138,5.220,5.378);
-//“You should never touch things when they are hot. You must wait and be patient ”.
-highlightsEnglish [8]  = new Array(0.455,0.565,0.793,0.893,1.180,1.327,2.019,2.230,2.530,2.920,3.000,3.175,3.915,4.065,4.495,4.760,5.105, 5.390,5.520);
+highlightsEnglish [2]  = new Array(0.640, 1.510, 1.635,1.885,2.554,2.885,3.310,3.735);
+//After getting up, she goes to the kitchen\nwhere her mother is taking some bread out of the oven.
+highlightsEnglish [3]  = new Array(0.408, 0.740,1.010,1.483,1.725,2.005,2.120,2.230,2.948,3.150,3.245,3.720,3.895,4.185,4.472,4.978, 5.097,5.205,5.345);
+//- Does the hot bread smell good? - says her mother.\n- Yes, - she replies lovingly.
+highlightsEnglish [4]  = new Array(0.000,0.244,0.500,0.585,0.870,1.130,1.565,0.000,2.200,2.529,2.845,0.000,3.400,0.000,4.175,4.400,4.930);
+//When her mother isn’t looking,\nLucy takes a piece of bread, but as it’s hot,\nshe burns herself.
+highlightsEnglish [5]  = new Array(0.664,0.810,1.050,1.460,1.630,2.400,2.910,3.290,3.410,3.630,3.790,4.590,4.807,4.990,5.200,5.914,6.220,6.565);
+//- Ow! I’ve burnt my finger!\nWhen her mother hears her cry she comes quickly to help her.
+highlightsEnglish [6]  = new Array(0.000,0.305,0.822,1.050,1.280,1.570,2.310,2.485,2.600,2.935,3.249,3.390,4.020,4.202,4.590,5.108,5.228,5.570);
+//She puts some ice on her finger and wraps it in a cloth, to ease the pain.
+highlightsEnglish [7]  = new Array(0.280,0.505,0.653,0.915,1.245,1.345,1.550,2.085,2.315,2.510,2.635,2.795,2.920,3.346,3.575, 3.860,3.995);
+//You should never touch things when they are hot. You must wait and be patient.
+highlightsEnglish [8]  = new Array(0.370,0.465,0.720,1.164,1.500,1.825,1.975,1.995,2.100,2.965,3.050,3.310, 3.975,4.152,4.340);
 //A few minutes later, Lucy’s mother gives her a nice slice of bread and butter.
-highlightsEnglish [9]  = new Array(0.0,0.280,1.150,1.490,1.678,2.650,2.945,3.765,4.155,4.360,5.420,5.712,5.810,6.105,6.355);
-//“ Now, it’s nice! Mummy ” says Lucy happily.
-highlightsEnglish [10]  = new Array(0.0, 0.2105,0.415,0.955,1.258,0.0,1.920,2.245,3.225,3.692,4.065,4.695,5.230,5.528,6.266,6.426,6.708,7.095,7.345,7.495,8.025,8.181);
+highlightsEnglish [9]  = new Array(0.362,0.450,0.655,0.980,1.780,2.260,2.770,3.092,3.290,3.400,3.735,4.045,4.225,4.555,4.810);
+//- Now, it’s nice! Mummy - says Lucy happily.
+highlightsEnglish [10]  = new Array(0.000,0.265, 0.590,0.800,1.235,0.000,2.010,2.280,2.745);
 
 
 var coloredWordsEnglish = new Array(pages);
 coloredWordsEnglish [0]  = new Array();
 coloredWordsEnglish [1]  = new Array();
-coloredWordsEnglish [2]  = new Array(3,7,8);
-coloredWordsEnglish [3]  = new Array(2,9);
-coloredWordsEnglish [4]  = new Array(7,12);
-coloredWordsEnglish [5]  = new Array(8,12);
-coloredWordsEnglish [6]  = new Array(9,18);
-coloredWordsEnglish [7]  = new Array(6,16);
-coloredWordsEnglish [8]  = new Array(15,16);
-coloredWordsEnglish [9]  = new Array(2,10);
-coloredWordsEnglish [10]  = new Array(1,2,3,10,21);
+coloredWordsEnglish [2]  = new Array(-1,5);
+coloredWordsEnglish [3]  = new Array(7,14);
+coloredWordsEnglish [4]  = new Array(-1,10);
+coloredWordsEnglish [5]  = new Array(6,14);
+coloredWordsEnglish [6]  = new Array(3,11);
+coloredWordsEnglish [7]  = new Array(-1,3);
+coloredWordsEnglish [8]  = new Array(4,15);
+coloredWordsEnglish [9]  = new Array(10,14);
+coloredWordsEnglish [10]  = new Array(-1,3);
 
 /*******************************/
 var languages = new Array(languageEnglish);
